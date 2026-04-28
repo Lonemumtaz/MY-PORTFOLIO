@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mumtaz Lone - Full Stack Developer & Data Analyst. Portfolio showcasing projects, skills, and experience.">
+    <title>Mumtaz Lone - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>ML</h1>
+                <span>Mumtaz Lone</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-section">
+                    <div class="profile-image-container">
+                        <img id="profileImage" src="https://via.placeholder.com/200?text=Your+Photo" alt="Profile Photo">
+                        <label for="imageUpload" class="image-upload-label">
+                            <i class="fas fa-camera"></i>
+                            <span>Upload Photo</span>
+                        </label>
+                        <input type="file" id="imageUpload" accept="image/*" style="display: none;">
+                    </div>
+                </div>
+                <div class="hero-text">
+                    <p class="greeting">Welcome to my portfolio</p>
+                    <h1>Hi, I'm <span class="highlight">Mumtaz Lone</span></h1>
+                    <p class="subtitle">Full Stack Developer | Data Analyst | Python Enthusiast</p>
+                    <p class="description">
+                        A passionate Computer Science Engineering student from Srinagar, Jammu and Kashmir. 
+                        I specialize in Python development, data analysis, and web technologies. 
+                        I love solving problems, building innovative projects, and learning new technologies.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                    <div class="quick-stats">
+                        <div class="stat">
+                            <p class="stat-number">5+</p>
+                            <p class="stat-label">Projects</p>
+                        </div>
+                        <div class="stat">
+                            <p class="stat-number">2+</p>
+                            <p class="stat-label">Hackathons</p>
+                        </div>
+                        <div class="stat">
+                            <p class="stat-number">10+</p>
+                            <p class="stat-label">Skills</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a Computer Science Engineering student at Government College of Engineering and Technology, 
+                        passionate about building modern applications and solving complex problems through code.
+                    </p>
+                    <p>
+                        With a strong foundation in full-stack development and data analysis, I specialize in Python, 
+                        JavaScript, and modern web technologies. I'm particularly interested in data science, 
+                        system design, and the intersection of design and development.
+                    </p>
+                    <p>
+                        Beyond coding, I'm an adaptable team player who thrives in collaborative environments. 
+                        I believe in continuous learning, creative problem-solving, and building solutions that make a real impact.
+                    </p>
+                </div>
+                <div class="about-cards">
+                    <div class="card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Education</h3>
+                        <p>B.Tech CSE (2023-Present)</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-code"></i>
+                        <h3>Focus</h3>
+                        <p>Full-Stack & Data Analysis</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>Srinagar, J&K, India</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-globe"></i>
+                        <h3>Languages</h3>
+                        <p>English, Hindi, Kashmiri</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python (Advanced)</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-palette"></i> Frontend Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Responsive Design</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Data Analysis & Libraries</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Seaborn</span>
+                        <span class="skill-tag">Jupyter Notebook</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-cogs"></i> Core Concepts</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">DSA (50%)</span>
+                        <span class="skill-tag">System Design (60%)</span>
+                        <span class="skill-tag">Networking (60%)</span>
+                        <span class="skill-tag">Problem Solving</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git & GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Python Libraries</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-star"></i> Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Team Collaboration</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Adaptability</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1: Dictionary App -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Dictionary App</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/Lonemumtaz/Dictionary-App" target="_blank" title="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        A fully functional dictionary application that allows users to search for word definitions, 
+                        pronunciations, and examples. Built with pure HTML, CSS, and JavaScript.
+                    </p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <p class="project-status">✅ Deployed & Working</p>
+                </div>
+
+                <!-- Project 2: Netflix Data Analysis -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Netflix Data Analysis</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/Lonemumtaz/NETFLIX_DataAnalysis_Project" target="_blank" title="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Comprehensive data analysis of Netflix dataset using Python. Extracted insights on content trends, 
+                        ratings, and viewing patterns using Pandas, NumPy, and Matplotlib.
+                    </p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>Matplotlib</span>
+                    </div>
+                    <p class="project-status">✅ Completed</p>
+                </div>
+
+                <!-- Project 3: BMI Calculator -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>BMI Calculator</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/Lonemumtaz" target="_blank" title="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        A simple and user-friendly web-based BMI calculator. Users can input their height and weight 
+                        to get instant BMI calculation with health recommendations.
+                    </p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <p class="project-status">✅ Deployed</p>
+                </div>
+
+                <!-- Project 4: Ludo Python Game -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Ludo Python Game</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/Lonemumtaz/ludo-python-game" target="_blank" title="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        A complete implementation of the Ludo board game in Python. Features game logic, 
+                        player management, and interactive gameplay mechanics.
+                    </p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Game Logic</span>
+                        <span>OOP</span>
+                    </div>
+                    <p class="project-status">✅ Completed</p>
+                </div>
+
+                <!-- Project 5: Library Management System -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Library Management System</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/Lonemumtaz" target="_blank" title="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        A robust system for efficient library management including book cataloging, user registration, 
+                        and tracking of borrowing and return records.
+                    </p>
+                    <div class="project-tech">
+                        <span>PHP</span>
+                        <span>SQL</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <p class="project-status">✅ Completed</p>
+                </div>
+
+                <!-- Project 6: Rock Paper Scissors -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Rock Paper Scissors Game</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/Lonemumtaz/RockScissor" target="_blank" title="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        An interactive Rock Paper Scissors game built with JavaScript. Features score tracking, 
+                        animations, and a clean user interface.
+                    </p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <p class="project-status">✅ Deployed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hackathons Section -->
+    <section id="hackathons" class="hackathons">
+        <div class="container">
+            <h2 class="section-title">Hackathon Experience</h2>
+            <div class="hackathon-card">
+                <div class="hackathon-header">
+                    <i class="fas fa-trophy"></i>
+                    <h3>Front and Fanzy Hackathon</h3>
+                </div>
+                <p class="hackathon-achievement">Participated and developed a functional prototype</p>
+                <p class="hackathon-description">
+                    Successfully developed a functional prototype demonstrating proficiency in frontend technologies 
+                    and rapid problem-solving under time constraints. This experience enhanced my ability to work 
+                    collaboratively and deliver results in a competitive environment.
+                </p>
+                <div class="hackathon-skills">
+                    <span>Frontend Development</span>
+                    <span>Rapid Prototyping</span>
+                    <span>Problem Solving</span>
+                    <span>Team Collaboration</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>I'm always interested in hearing about new projects and opportunities. 
+                    Whether you have a question or just want to say hello, feel free to reach out!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:contactmummtazlone@gmail.com">contactmummtazlone@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+917889772060">+91 7889772060</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Srinagar, Jammu and Kashmir, India</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h4>Connect With Me</h4>
+                        <div class="social-icons">
+                            <a href="https://github.com/Lonemumtaz" target="_blank" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mumtazlone" target="_blank" title="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="mailto:contactmummtazlone@gmail.com" title="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Mumtaz Lone. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/Lonemumtaz" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/mumtazlone" target="_blank">LinkedIn</a>
+                <a href="mailto:contactmummtazlone@gmail.com">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
