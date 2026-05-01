@@ -51,4 +51,4 @@ Full Stack Developer | Data Analyst | Python Enthusiast
 - 🌐 [GitHub](https://github.com/Lonemumtaz) | [LinkedIn](https://www.linkedin.com/in/mumtazlone)
 
 ---
-© 2024 Mumtaz Lone. All rights reserved.
+© 2024 Mumtaz Lone. All rights reserved....
