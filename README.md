@@ -43,7 +43,7 @@ MY-PORTFOLIO/
 2. Open `index.html` in your web browser.
 
 ## 👤 Author
-**Mumtaz Lone**  
+**Mumtaz ahmad Lone**  
 Full Stack Developer | Data Analyst | Python Enthusiast
 
 - 📧 Email: [contactmummtazlone@gmail.com](mailto:contactmummtazlone@gmail.com)
